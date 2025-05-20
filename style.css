@@ -1,0 +1,84 @@
+/* Importing Google Fonts for use throughout the website */
+@import url(https://fonts.googleapis.com/css?family=Montserrat); /* Montserrat font for headings and navigation */
+@import url(https://fonts.googleapis.com/css?family=Inter); /* Inter font for body text */
+
+/* Sets the background color to a dark blue-gray and text color to light gray for the entire page */
+body {
+    background-color: #1B263B; /* Dark blue-gray background color (slightly lighter than homepage) */
+    color: #E0E0E0; /* Light gray text color for better readability on dark background */
+ }
+ 
+ /* Styles for the main heading (h1) elements */
+ h1 {
+    font-family: Montserrat; /* Uses Montserrat font from Google Fonts import */
+    text-decoration: underline; /* Adds underline to all h1 headings */
+    text-decoration-color: black; /* Sets the underline color to black */
+ }
+ 
+ /* Styles for anchor (link) elements */
+ a {
+    font-family: Montserrat; /* Uses Montserrat font from Google Fonts import */
+    font-size: 25px; /* Sets the text size to 25 pixels for better visibility */
+    color: white; /* Sets the link color to white for contrast against dark background */
+ }
+ 
+ /* Styles for paragraph elements */
+ p {
+    font-family: Inter; /* Uses Inter font from Google Fonts import */
+    font-size: 18px; /* Sets the text size to 18 pixels for body text */
+ }
+ 
+ /* Styles for tertiary heading (h3) elements used for section headers */
+ h3 {
+    font-family: Montserrat; /* Uses Montserrat font from Google Fonts import */
+    font-size: 27px; /* Sets the text size to 27 pixels for clear section identification */
+    text-decoration: underline; /* Adds underline to all h3 headings */
+    text-decoration-color: black; /* Sets the underline color to black */
+ }
+ 
+ /* Combined selector applies the same margin to both h3 and p elements for consistent spacing */
+ h3, p {
+    margin: 5px; /* Sets margin to 5 pixels on all sides for compact layout */
+ }
+ 
+ /* Styles for the image container class that positions media on the right side */
+ .image-container {
+    position: absolute; /* Positions the container absolutely within its parent */
+    top: 10px; /* Positions 10px from the top of the parent */
+    right: 10px; /* Positions 10px from the right of the parent */
+    display: flex; /* Uses flexbox layout for flexible positioning */
+    flex-direction: column; /* Arranges children in a vertical column */
+    align-items: flex-end; /* Aligns items to the right side */
+ }
+ 
+ /* Styles for figure elements (used to contain images/videos with captions) */
+ figure {
+    border: 2px solid #008CFF; /* Adds a 2px solid blue border around figures */
+    border-radius: 8px; /* Rounds the corners with an 8px radius */
+    margin-top: 50px; /* Adds 50px space above each figure for separation */
+ }
+ 
+ /* Styles applied to both images and videos for consistent sizing */
+ img, video {
+    width: 800px; /* Sets fixed width to 800 pixels */
+    height: 400px; /* Sets fixed height to 400 pixels */
+ }
+ 
+ /* Styles for figure captions */
+ figcaption {
+    font-family: Inter; /* Uses Inter font from Google Fonts import */
+    color: #E0E0E0; /* Sets the text color to light gray for readability */
+    text-align: center; /* Centers the caption text beneath the media */
+ }
+ 
+ /* Styles for span elements (used for text highlighting throughout the site) */
+ span {
+    text-decoration: underline; /* Adds underline to all span elements for emphasis */
+ }
+ 
+ /* Styles for mark elements (used for highlighted text like headers and navigation) */
+ mark {
+    background-color: #FFFFFF; /* Sets highlight background to white */
+    text-decoration-color: black; /* Sets the text decoration color to black */
+    font-family: Montserrat; /* Uses Montserrat font from Google Fonts import */
+ }

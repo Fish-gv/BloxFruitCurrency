@@ -1,0 +1,38 @@
+/* Importing Google Fonts for use throughout the feedback page */
+@import url(https://fonts.googleapis.com/css?family=Montserrat); /* Montserrat font for headings and navigation */
+@import url(https://fonts.googleapis.com/css?family=Inter); /* Inter font for any body text */
+
+/* Sets the background color to a dark blue-gray and text color to light gray for the entire page */
+body {
+    background-color: #1B263B; /* Dark blue-gray background color, matching the currency detail pages */
+    color: #E0E0E0; /* Light gray text color for better readability on dark background */
+}
+
+/* Styles for the main heading (h1) elements */
+h1 {
+    font-family: Montserrat; /* Uses Montserrat font from Google Fonts import */
+    text-decoration: underline; /* Adds underline to all h1 headings */
+    text-decoration-color: white; /* Sets the underline color to white (differs from other pages which use black) */
+    text-align: center; /* Centers the heading horizontally */
+}
+
+/* Styles for anchor (link) elements */
+a {
+    font-family: Montserrat; /* Uses Montserrat font from Google Fonts import */
+    font-size: 25px; /* Sets the text size to 25 pixels for better visibility */
+    color: white; /* Sets the link color to white for contrast against dark background */
+}
+
+/* Styles for the embedded Google Form iframe */
+iframe {
+    width: 100%; /* Makes the iframe take the full width of its container */
+    height: 100%; /* Makes the iframe take the full height of its container */
+    text-align: center; /* Centers the iframe content horizontally */
+}
+
+/* Styles for mark elements (used for highlighted text in navigation) */
+mark {
+    background-color: #FFFFFF; /* Sets highlight background to white */
+    text-decoration-color: black; /* Sets the text decoration color to black */
+    font-family: Montserrat; /* Uses Montserrat font from Google Fonts import */
+}
